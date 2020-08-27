@@ -1,0 +1,182 @@
+.info{
+	
+	text-decoration:none;
+	color:white;
+	padding:30px;
+	
+	
+	}
+	
+    h3{
+	  color:grey;
+	  
+	
+	}
+	h4{
+	
+	
+	color:white;
+	}
+	
+	
+	
+
+	
+	
+.details{
+  width:500px;
+  margin: auto;
+  border: 3px solid grey;
+  padding:5px;
+ /* background-image:url("th.jfif"); */
+ /* background-repeat:none; */
+ 
+ 
+ 
+  
+  
+}
+
+.detail {
+  max-width:500px;
+  margin: auto;
+  border: black;
+}
+body{
+background-image:url("pho.jpg");
+background-attachment:fixed;
+background-size:cover;
+display:flex;
+justify-content:center;
+/* align-items:left; */
+min-height:100vh;
+padding:10;
+
+ 
+}
+.container
+{
+position:relatve;
+width=900px;	
+display:flex;
+justify-content:space-around;
+padding:80px;
+}
+svg{
+position:reletive;
+width:150px;
+height:150px;
+z-index:1000;
+	
+}
+svg circle{
+width:100%;
+height:100%;
+fill:none;
+stroke:#191919;
+stroke-width:10;
+stroke-linecap:10;
+transform:translate(5px,5px);
+}	
+
+.percent .number{
+	
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+
+	
+	
+}
+
+
+
+
+
+
+svg circle:nth-child(2)
+{	
+stroke-dasharray:220;
+stroke-dashoffset:220;
+	
+}
+.card:nth-child(1) svg circle:nth-child(2)
+{
+stroke:#00ff43;	
+}
+svg circle:nth-child(2)
+{	
+stroke-dasharray:220;
+stroke-dashoffset:220;
+	
+}
+.card:nth-child(2) svg circle:nth-child(2)
+{
+stroke:#00ff42;	
+}
+svg circle:nth-child(2)
+{	
+stroke-dasharray:220;
+stroke-dashoffset:220;
+	
+}
+.card:nth-child(1) svg circle:nth-child(2)
+{
+stroke:#00ff43;	
+}
+
+.container{
+
+width:500px;
+margin:50px auto 0;
+padding:20px;
+}
+
+
+li{
+position:relative;
+list-style:none;
+margin:50px 0;
+font-weight:500;
+text-transform:uppercase;
+	
+	
+}
+li:before{
+	content:"";
+	position:absolute;
+	top:calc(100%+10px);
+	left:0;
+	width:100%;
+	height:15px;
+	background-color:rgba(54,126,223,.5);
+	border-radius:1000px;
+}
+
+li:before{
+	content:"";
+	position:absolute;
+	top:calc(100%+10px);
+	left:0;
+	width:100%;
+	height:15px;
+	background-color:rgba(54,126,223,.5);
+	border-radius:1000px;
+	animation-duration:.7s;
+
+	animation-timing-funtion:ease;'
+	
+	animation-fill-mode:forwards;
+	
+	
+}
+
+	
+
+
+	
